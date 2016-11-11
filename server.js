@@ -14,41 +14,7 @@ var config = {
 var app = express();
 app.use(morgan('combined'));
 
-var articles = { 
-'article-one': {
-    title:  'Article One | Sukrut Dani',
-    heading: 'Article One',
-    date: '29 sept 2016',
-    content: ` <p>
-                    This is article one of my first webapp. I am feeling so happy about it.
-                </p>
-                <p>
-                   SUKRUT DANI.SUKRUT DANI.SUKRUT DANI.SUKRUT DANI.SUKRUT DANI.SUKRUT DANI.SUKRUT DANI.SUKRUT DANI.SUKRUT DANI.SUKRUT DANI.SUKRUT DANI.SUKRUT DANI.SUKRUT DANI.SUKRUT DANI.SUKRUT DANI.SUKRUT DANI.SUKRUT DANI.SUKRUT DANI.SUKRUT DANI.SUKRUT DANI.SUKRUT DANI.SUKRUT DANI.SUKRUT DANI.SUKRUT DANI.SUKRUT DANI.SUKRUT DANI.SUKRUT DANI.SUKRUT DANI.SUKRUT DANI.SUKRUT DANI.SUKRUT DANI.SUKRUT DANI.
-                </p>
-                <p>
-                    SUKRUT DANI.SUKRUT DANI.SUKRUT DANI.SUKRUT DANI.SUKRUT DANI.SUKRUT DANI.SUKRUT DANI.SUKRUT DANI.SUKRUT DANI.SUKRUT DANI.SUKRUT DANI.SUKRUT DANI.SUKRUT DANI.SUKRUT DANI.SUKRUT DANI.SUKRUT DANI.SUKRUT DANI.SUKRUT DANI.SUKRUT DANI.SUKRUT DANI.SUKRUT DANI.SUKRUT DANI.SUKRUT DANI.SUKRUT DANI.SUKRUT DANI.SUKRUT DANI.SUKRUT DANI.SUKRUT DANI.
-                </p>`
-},
-'article-two': {
-    title:  'Article Two | Sukrut Dani',
-    heading: 'Article Two',
-    date: '30 sept 2016',
-    content: ` <p>
-                    This is article two of my first webapp. I am feeling so happy about it.
-                </p>
-                <p>
-                   SUKRUT DANI.
-                </p>`
-},
-'article-three': {
-    title:  'Article Three | Sukrut Dani',
-    heading: 'Article Three',
-    date: '27 Oct 2016',
-    content: ` <p>
-                    This is article three of my first webapp. I am feeling so happy about it.
-                </p>`
-}
-};
+
 
 function createTemplate (data) {
    
